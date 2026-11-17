@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 40% 98%;
+    --foreground: 20 30% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 30% 12%;
+    --primary: 24 85% 40%;
+    --primary-foreground: 30 40% 98%;
+    --secondary: 20 30% 15%;
+    --secondary-foreground: 30 40% 98%;
+    --muted: 30 20% 94%;
+    --muted-foreground: 20 10% 40%;
+    --accent: 40 90% 50%;
+    --accent-foreground: 20 30% 12%;
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 30 40% 98%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 24 85% 40%;
+    --radius: 0.6rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display font-semibold tracking-tight;
+  }
+  a {
+    @apply underline-offset-2;
+  }
+}
+
+@layer utilities {
+  .section {
+    @apply py-8 md:py-12;
+  }
+  .container-narrow {
+    @apply mx-auto max-w-3xl px-4;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-dash-flow,
+  .animate-marker-ping,
+  .animate-border-spin {
+    animation: none !important;
+  }
+}
