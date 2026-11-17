@@ -6,9 +6,9 @@ import { siteConfig } from "@/data/site";
 import { ShieldCheck, Users, MapPin } from "lucide-react";
 
 export const metadata: Metadata = createMetadata({
-  title: "About Us | Urbania Hire Jodhpur",
+  title: "About Us | Urbania Hire Jaipur",
   description:
-    "Urbania Hire Jodhpur supplies Force Urbania vehicles with verified drivers for weddings, corporate travel and group tours across Rajasthan since 2016.",
+    "Urbania Hire Jaipur supplies Force Urbania vehicles with verified drivers for weddings, corporate travel and group tours across Rajasthan since 2016.",
   path: "/about",
 });
 

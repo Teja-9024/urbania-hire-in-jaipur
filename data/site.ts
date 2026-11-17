@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = "https://urbaniahirejodhpur.com";
+const DEFAULT_SITE_URL = "https://urbaniahireinjaipur.com";
 
 // Vercel env vars can be set to an empty string or without a protocol; both
 // would make `new URL(siteConfig.url)` throw at build time, so normalise here.
@@ -14,12 +14,12 @@ function resolveSiteUrl(raw: string | undefined): string {
 }
 
 export const siteConfig = {
-  name: "Urbania Hire Jodhpur",
-  legalName: "Urbania Hire Jodhpur Travels",
-  shortName: "Urbania Hire Jodhpur",
+  name: "Urbania Hire Jaipur",
+  legalName: "Urbania Hire Jaipur Travels",
+  shortName: "Urbania Hire Jaipur",
   url: resolveSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   description:
-    "Force Urbania on rent in Jodhpur for weddings, corporate travel, airport transfers, Mehrangarh and Jaisalmer tours and outstation trips across Rajasthan. Verified drivers, transparent pricing, 24/7 booking support.",
+    "Force Urbania on rent in Jaipur for weddings, corporate travel, airport transfers, Amer Fort and Pink City tours and outstation trips across Rajasthan. Verified drivers, transparent pricing, 24/7 booking support.",
   // Contact details — single source of truth for the whole site.
   phone: "+918949304824",
   phoneDisplay: "+91 89493 04824",

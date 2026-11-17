@@ -28,7 +28,7 @@ export function WhyChooseUs() {
   return (
     <section className="section">
       <div className="container">
-        <SectionHeading eyebrow="Why Choose Us" title="Why Choose" highlight="Urbania Hire Jodhpur" />
+        <SectionHeading eyebrow="Why Choose Us" title="Why Choose" highlight="Urbania Hire Jaipur" />
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {points.map((point) => (
             <div key={point.title} className="relative overflow-hidden rounded-2xl p-[1.5px]">

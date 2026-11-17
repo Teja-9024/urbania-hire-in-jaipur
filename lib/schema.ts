@@ -31,7 +31,7 @@ export function websiteSchema() {
     "@id": `${siteConfig.url}/#website`,
     url: siteConfig.url,
     name: siteConfig.name,
-    alternateName: ["Urbania Hire", "Urbania Hire Jodhpur", "Force Urbania on Rent in Jodhpur"],
+    alternateName: ["Urbania Hire", "Urbania Hire Jaipur", "Force Urbania on Rent in Jaipur"],
     description: siteConfig.description,
     inLanguage: "en-IN",
     publisher: { "@id": `${siteConfig.url}/#organization` },
@@ -76,6 +76,7 @@ export function localBusinessSchema() {
       longitude: siteConfig.geo.lng,
     },
     areaServed: [
+      { "@type": "City", name: "Jaipur" },
       { "@type": "City", name: "Jodhpur" },
       { "@type": "State", name: "Rajasthan" },
     ],

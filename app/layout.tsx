@@ -39,7 +39,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | Force Urbania, Innova, Bus & Tempo Traveller on Rent in Jodhpur`,
+    default: `${siteConfig.name} | Force Urbania, Innova, Bus & Tempo Traveller on Rent in Jaipur`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -47,12 +47,12 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.name }],
   generator: "Next.js",
   keywords: [
-    "urbania hire jodhpur",
-    "force urbania on rent in jodhpur",
-    "urbania rental jodhpur",
-    "tempo traveller hire jodhpur",
-    "mini bus on rent jodhpur",
-    "innova taxi service jodhpur",
+    "urbania hire jaipur",
+    "force urbania on rent in jaipur",
+    "urbania rental jaipur",
+    "tempo traveller hire jaipur",
+    "mini bus on rent jaipur",
+    "innova taxi service jaipur",
     "urbania hire rajasthan",
   ],
   // Set NEXT_PUBLIC_GSC_VERIFICATION to the Search Console token; omitted when unset.

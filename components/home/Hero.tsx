@@ -13,7 +13,7 @@ const trustBadges = [
 const ctaClass =
   "rounded-full px-7 font-semibold shadow-lg shadow-black/30 ring-1 ring-white/20 transition hover:-translate-y-0.5 hover:shadow-xl";
 
-const HERO_ALT = "Force Urbania van with a group of travellers at sunset in Jodhpur, Rajasthan";
+const HERO_ALT = "Force Urbania van with a group of travellers at sunset in Jaipur, Rajasthan";
 
 export function Hero() {
   // Art direction: a wide photo for desktop and a tall crop for phones, served
@@ -51,14 +51,14 @@ export function Hero() {
           Premium Rental Services
         </p>
         <h1 className="mt-3 font-serif text-[2.4rem] font-bold leading-[1.1] [text-shadow:0_2px_14px_rgba(0,0,0,0.65)] sm:text-5xl lg:text-6xl">
-          <span className="text-gold">Force Urbania</span> Hire in Jodhpur
+          <span className="text-gold">Force Urbania</span> Hire in Jaipur
         </h1>
         <p className="mt-2 font-serif text-lg italic font-semibold text-balance text-gold [text-shadow:0_2px_10px_rgba(0,0,0,0.7)] sm:text-2xl">
           For Weddings, Corporate Travel &amp; Family Tours
         </p>
         <p className="mx-auto mt-3 hidden max-w-2xl text-white/90 [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] xl:block">
-          Book a 17-seater Force Urbania with an experienced driver for group travel in Jodhpur and across
-          Jaipur, Udaipur, Jaisalmer and every major city in Rajasthan.
+          Book a 17-seater Force Urbania with an experienced driver for group travel in Jaipur and across
+          Jodhpur, Udaipur, Jaisalmer and every major city in Rajasthan.
         </p>
       </div>
 

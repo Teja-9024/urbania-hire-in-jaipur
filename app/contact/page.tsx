@@ -7,9 +7,9 @@ import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = createMetadata({
-  title: "Contact Us | Urbania Hire Jodhpur",
+  title: "Contact Us | Urbania Hire Jaipur",
   description:
-    "Get in touch with Urbania Hire Jodhpur for Force Urbania bookings — call, WhatsApp, or fill our enquiry form for a same-day quote.",
+    "Get in touch with Urbania Hire Jaipur for Force Urbania bookings — call, WhatsApp, or fill our enquiry form for a same-day quote.",
   path: "/contact",
 });
 

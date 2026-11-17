@@ -38,7 +38,7 @@ export const tours: TourPackage[] = [
     bestTime: "October to March",
     idealFor: ["Families and first-time visitors", "Corporate and school groups", "Golden Triangle travellers"],
     overview: [
-      "Jaipur packs Rajasthan's royal history into a compact circuit: a hilltop fort, two palace complexes, an observatory and some of the country's best bazaars, all within a short drive of each other. A private vehicle lets you start early, beat the tour-bus crowds and pace the day to your group.",
+      "Jaipur is our home city, and it packs Rajasthan's royal history into a compact circuit: a hilltop fort, two palace complexes, an observatory and some of the country's best bazaars, all within a short drive of each other. A private vehicle lets you start early, beat the tour-bus crowds and pace the day to your group.",
       "Our Jaipur tour is planned around your time. Take it as a single long sightseeing day, or spread it over two days and add a stepwell or a sunset viewpoint.",
     ],
     highlights: ["Amer Fort", "City Palace & Jantar Mantar", "Hawa Mahal", "Jal Mahal photo stop", "Nahargarh Fort sunset", "Johari and Bapu bazaars"],

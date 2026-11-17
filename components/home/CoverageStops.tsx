@@ -14,8 +14,8 @@ type Stop = {
 // Positions are percentages of a fixed 600x520 box (see the aspect-[...] wrapper below) so
 // the dots and the dashed connector line stay aligned and proportional at every screen size.
 const stops: Stop[] = [
-  { city: "Jodhpur", blurb: "Head office & fleet hub", color: "#E8A020", tint: "#FBF1DC", top: "7%", left: "46%" },
-  { city: "Jaipur", blurb: "Golden-Triangle departures", color: "#C1440E", tint: "#FBEAE3", top: "29%", left: "4%" },
+  { city: "Jodhpur", blurb: "Blue City & Mehrangarh circuit", color: "#E8A020", tint: "#FBF1DC", top: "7%", left: "46%" },
+  { city: "Jaipur", blurb: "Head office & fleet hub", color: "#C1440E", tint: "#FBEAE3", top: "29%", left: "4%" },
   { city: "Udaipur", blurb: "Lakeside tours & events", color: "#1B2A4A", tint: "#E9EDF5", top: "47%", left: "50%" },
   { city: "Jaisalmer", blurb: "Desert safaris & camps", color: "#1C6FC9", tint: "#E6F0FB", top: "62%", left: "4%" },
   { city: "Bikaner", blurb: "Northern-desert circuit", color: "#1F8F57", tint: "#E5F5EC", top: "86%", left: "50%" },

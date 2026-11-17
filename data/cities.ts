@@ -17,10 +17,10 @@ const rajasthanCities: City[] = [
       "Force Urbania hire in Jaipur for airport transfers, city sightseeing, weddings and outstation trips across Rajasthan.",
     intro: [
       "Jaipur is Rajasthan's largest hub for group travel — most wedding parties, corporate offsites and multi-city tour circuits start or end here. As the state capital with the busiest airport in Rajasthan, Jaipur sees the highest demand for group vehicles that can handle both city sightseeing and long outstation legs.",
-      "Urbania Hire Jodhpur keeps a dedicated fleet available for Jaipur, with drivers who know the city's palace routes, the airport terminals, and the highway corridors toward Jodhpur, Udaipur, Jaisalmer and Delhi.",
+      "Jaipur is the home base of Urbania Hire Jaipur, so our fleet is stationed right here, with drivers who know the city's palace routes, Jaipur Airport (JAI), Sindhi Camp and the railway station, the Johari and Bapu Bazaar area, Chokhi Dhani, and the highway corridors toward Jodhpur, Udaipur, Jaisalmer and Delhi.",
     ],
     localPickupInfo:
-      "We offer pickup from Jaipur International Airport, Jaipur Junction railway station, and any hotel or residential address across the city, including Malviya Nagar, C-Scheme, Vaishali Nagar and Mansarovar.",
+      "We offer pickup from Jaipur International Airport (JAI), Jaipur Junction railway station, the Sindhi Camp bus stand, and any hotel or residential address across the city, including Malviya Nagar, C-Scheme, Vaishali Nagar and Mansarovar.",
     useCases: [
       "Jaipur airport group pickup for tourists and wedding guests",
       "Full-day Jaipur city sightseeing (Amer Fort, City Palace, Hawa Mahal)",
@@ -34,6 +34,9 @@ const rajasthanCities: City[] = [
       { name: "City Palace", description: "Royal residence complex combining Rajput and Mughal architecture." },
       { name: "Jal Mahal", description: "Palace set in the middle of Man Sagar Lake, popular photo stop." },
       { name: "Nahargarh Fort", description: "Hilltop fort with panoramic sunset views over Jaipur." },
+      { name: "Jantar Mantar", description: "18th-century astronomical observatory beside the City Palace, a UNESCO World Heritage Site." },
+      { name: "Johari and Bapu Bazaar", description: "The old city's best-known markets for jewellery, textiles and handicrafts." },
+      { name: "Chokhi Dhani", description: "Rajasthani village-style resort known for folk performances and traditional dinners." },
     ],
     nearbyDestinations: [
       { name: "Samode", distanceKm: 42, description: "Heritage village known for Samode Palace, a popular day-trip and wedding venue." },
@@ -76,7 +79,7 @@ const rajasthanCities: City[] = [
       "Force Urbania hire in Jodhpur, the Blue City, for weddings, sightseeing and outstation trips toward Jaisalmer and Udaipur.",
     intro: [
       "Jodhpur's blue-washed old city and Mehrangarh Fort make it one of Rajasthan's most photographed destination-wedding venues, and its airport is a common entry point for the western Rajasthan circuit. Group transport demand here skews heavily toward weddings and onward trips to Jaisalmer.",
-      "Our Jodhpur-based Urbania fleet handles everything from a single airport transfer to full multi-day wedding logistics across the city's heritage hotel circuit.",
+      "Our Urbania fleet, dispatched from Jaipur along the Jaipur-Jodhpur corridor, handles everything from a single airport transfer to full multi-day wedding logistics across the city's heritage hotel circuit.",
     ],
     localPickupInfo:
       "Pickup available at Jodhpur Airport, Jodhpur Junction, and hotels across the Blue City, Ratanada and Umaid Bhawan areas.",

@@ -1,22 +1,22 @@
 import Image from "next/image";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Button } from "@/components/ui/button";
-import { jodhpurPackages } from "@/data/jodhpur-packages";
+import { jaipurPackages } from "@/data/jaipur-packages";
 import { buildWhatsAppLink } from "@/lib/whatsapp";
 
-export function JodhpurPackages() {
+export function JaipurPackages() {
   return (
     <section className="section bg-muted/40">
       <div className="container">
         <SectionHeading
           eyebrow="Local Sightseeing Packages"
-          title="See Jodhpur in Comfort"
+          title="See Jaipur in Comfort"
           highlight="With a Force Urbania and Driver"
-          description="From Mehrangarh Fort to the blue-washed lanes of the old city, tour Jodhpur together with your whole group in an air-conditioned Urbania, driven by a chauffeur who knows these roads well."
+          description="From Amer Fort to the rose-pink lanes of the old city, tour Jaipur together with your whole group in an air-conditioned Urbania, driven by a chauffeur who knows these roads well."
         />
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {jodhpurPackages.map((pkg) => (
+          {jaipurPackages.map((pkg) => (
             <article key={pkg.slug} className="flex flex-col overflow-hidden rounded-2xl border bg-card shadow-md">
               <div className={`relative aspect-[16/7] w-full bg-gradient-to-br ${pkg.gradient}`}>
                 {pkg.image && (
@@ -45,7 +45,7 @@ export function JodhpurPackages() {
 
                 <Button asChild className="mt-6 h-11 w-full rounded-lg font-semibold">
                   <a
-                    href={buildWhatsAppLink(`Hello, I want to book the "${pkg.title}" in Jodhpur. Please share the quote.`)}
+                    href={buildWhatsAppLink(`Hello, I want to book the "${pkg.title}" in Jaipur. Please share the quote.`)}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -57,18 +57,6 @@ export function JodhpurPackages() {
           ))}
         </div>
 
-        <p className="mt-6 text-center text-xs text-muted-foreground">
-          Photo credits: Sardar Market clock tower by{" "}
-          <a
-            href="https://commons.wikimedia.org/wiki/File:Jodhpur,_India,_Jodhpur_Clock_Tower_(Ghanta_Ghar).jpg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            Vyacheslav Argenberg
-          </a>{" "}
-          (CC BY 4.0); Blue City view by Mustang Joe (CC0), via Wikimedia Commons.
-        </p>
       </div>
     </section>
   );

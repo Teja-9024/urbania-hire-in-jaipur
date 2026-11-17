@@ -42,7 +42,7 @@ const nearby = (city: City, index: number) => city.nearbyDestinations[index] ?? 
 const angles: Record<HireKind, Record<string, string>> = {
   bus: {
     jaipur:
-      "Jaipur is where most large groups begin: a 30-seater mini bus keeps a wedding baraat, school trip or corporate offsite together between the airport, the hotel belt and Amer Fort, and the same bus can then carry the group on to Jodhpur, Udaipur or Jaisalmer without changing vehicles.",
+      "Jaipur is our home city and where most large groups begin: a 30-seater mini bus keeps a wedding baraat, school trip or corporate offsite together between the airport, the hotel belt and Amer Fort, and the same bus can then carry the group on to Jodhpur, Udaipur or Jaisalmer without changing vehicles.",
     udaipur:
       "In Udaipur a mini bus is the practical way to shuttle wedding guests between lakeside resorts, the airport at Dabok and the City Palace area, and to run a group day trip to Kumbhalgarh and Ranakpur, which sit roughly 84 and 96 km from the city.",
     "mount-abu":
@@ -56,7 +56,7 @@ const angles: Record<HireKind, Record<string, string>> = {
   },
   taxi: {
     jaipur:
-      "A car with driver in Jaipur suits families and couples who want to cover Amer Fort, the City Palace and Hawa Mahal at their own pace, or who need airport and railway transfers and a comfortable onward drive to Pushkar, Ajmer or Delhi.",
+      "As our home city, Jaipur is where we are quickest to respond: a car with driver suits families and couples who want to cover Amer Fort, the City Palace and Hawa Mahal at their own pace, or who need airport and railway transfers and a comfortable onward drive to Pushkar, Ajmer or Delhi.",
     udaipur:
       "Udaipur's lakeside lanes are easiest by car: airport transfers, a City Palace and Lake Pichola circuit, and a day trip to Kumbhalgarh and Ranakpur for a small family group that does not need a full-size vehicle.",
     "mount-abu":
@@ -70,7 +70,7 @@ const angles: Record<HireKind, Record<string, string>> = {
   },
   tempo: {
     jaipur:
-      "Jaipur tempo traveller bookings are usually family groups and corporate teams of 8 to 17 people travelling together to Amer Fort and the city palaces, or moving on to Pushkar, Ajmer, Jodhpur and Udaipur without splitting into separate cars.",
+      "Jaipur tempo traveller bookings, run from our home base, are usually family groups and corporate teams of 8 to 17 people travelling together to Amer Fort, Hawa Mahal and the city palaces, airport (JAI) and Sindhi Camp transfers, or moving on to Pushkar, Ajmer, Jodhpur and Udaipur without splitting into separate cars.",
     udaipur:
       "In Udaipur, tempo travellers run wedding guest shuttles between resorts and the airport, and small group tours around the lakes, with day trips to Kumbhalgarh, Ranakpur and Chittorgarh.",
     "mount-abu":

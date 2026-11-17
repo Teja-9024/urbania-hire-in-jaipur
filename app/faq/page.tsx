@@ -6,7 +6,7 @@ import { CTASection } from "@/components/shared/CTASection";
 import { globalFaqs } from "@/data/faqs";
 
 export const metadata: Metadata = createMetadata({
-  title: "Frequently Asked Questions | Urbania Hire Jodhpur",
+  title: "Frequently Asked Questions | Urbania Hire Jaipur",
   description:
     "Answers to common questions about Force Urbania hire in Rajasthan — vehicle capacity, pricing, booking process, coverage cities and more.",
   path: "/faq",

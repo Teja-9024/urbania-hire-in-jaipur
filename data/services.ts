@@ -17,8 +17,8 @@ export const services: Service[] = [
     shortDescription:
       "Force Urbania hire for baraat, guest transfers and wedding logistics across Rajasthan's destination wedding venues.",
     intro: [
-      "Rajasthan hosts some of India's largest destination weddings, and moving guests between hotels, venues and airports is often the most stressful part of the event. Urbania Hire Jodhpur supplies decorated, driver-led Force Urbania vehicles that keep wedding parties, baraatis and out-of-town guests moving on schedule.",
-      "We work with wedding planners in Udaipur, Jaipur and Jodhpur on multi-day itineraries covering airport pickup, hotel shuttles, sangeet and baraat transport, and return drops — coordinated from a single point of contact.",
+      "Rajasthan hosts some of India's largest destination weddings, and moving guests between hotels, venues and airports is often the most stressful part of the event. Urbania Hire Jaipur supplies decorated, driver-led Force Urbania vehicles that keep wedding parties, baraatis and out-of-town guests moving on schedule.",
+      "We work with wedding planners in Jaipur, Udaipur and Jodhpur on multi-day itineraries covering airport pickup, hotel shuttles, sangeet and baraat transport, and return drops — coordinated from a single point of contact.",
     ],
     highlights: [
       "Multiple Urbania vehicles coordinated for large guest lists",
@@ -28,7 +28,7 @@ export const services: Service[] = [
       "Uniformed, verified drivers familiar with venue access",
     ],
     idealFor: [
-      "Destination weddings in Udaipur, Jodhpur and Jaipur",
+      "Destination weddings in Jaipur, Udaipur and Jodhpur",
       "Baraat and guest shuttle services",
       "Multi-hotel guest pickup and drop coordination",
       "Sangeet and mehendi venue transfers",
@@ -53,7 +53,7 @@ export const services: Service[] = [
     seo: {
       title: "Urbania for Wedding Transportation in Rajasthan | Baraat & Guest Hire",
       description:
-        "Hire Force Urbania for wedding transport in Rajasthan — baraat vehicles, guest shuttles and multi-day wedding logistics in Udaipur, Jaipur and Jodhpur.",
+        "Hire Force Urbania for wedding transport in Rajasthan — baraat vehicles, guest shuttles and multi-day wedding logistics in Jaipur, Udaipur and Jodhpur.",
       keywords: [
         "urbania for wedding",
         "wedding transport rajasthan",

@@ -7,7 +7,7 @@ import { siteConfig } from "@/data/site";
 export const metadata: Metadata = {
   title: "Travel Blog | Force Urbania Rental Tips & India Tour Guides",
   description:
-    "Expert travel guides, vehicle comparisons, road trip tips, and group travel advice for India. Plan your next trip with Urbania Hire Jodhpur blog.",
+    "Expert travel guides, vehicle comparisons, road trip tips, and group travel advice for India. Plan your next trip with Urbania Hire Jaipur blog.",
   keywords: [
     "travel blog india",
     "force urbania blog",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: `${siteConfig.url}/blog`,
   },
   openGraph: {
-    title: "Travel Blog | Urbania Hire Jodhpur",
+    title: "Travel Blog | Urbania Hire Jaipur",
     description:
       "Expert travel guides, vehicle comparisons, and group travel tips for India.",
     url: `${siteConfig.url}/blog`,

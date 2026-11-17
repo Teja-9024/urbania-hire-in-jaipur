@@ -18,7 +18,7 @@ export default function UrbaniaHireIndexPage() {
       <Breadcrumbs items={[{ label: "Urbania Hire", href: "/urbania-hire" }]} />
       <section className="section">
         <div className="container">
-          <h1 className="text-3xl md:text-4xl">Urbania Hire Jodhpur — Choose Your City</h1>
+          <h1 className="text-3xl md:text-4xl">Urbania Hire Jaipur — Choose Your City</h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">
             We operate Force Urbania rentals across {cities.length} cities and tourist hubs across Rajasthan, plus Delhi and Agra for Golden Triangle trips.
             Select your city for local pricing, pickup points and popular routes.

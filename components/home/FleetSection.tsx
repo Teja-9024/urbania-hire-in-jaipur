@@ -7,10 +7,10 @@ export function FleetSection() {
     <section className="section">
       <div className="container">
         <SectionHeading
-          eyebrow="Direct Owner Fleet in Jodhpur"
+          eyebrow="Direct Owner Fleet in Jaipur"
           title="Choose Your"
-          highlight="Force Urbania On Rent In Jodhpur"
-          description="Whether you need a luxury van for Jodhpur local sightseeing, wedding guest mobility, or an outstation holiday to Jaisalmer and Udaipur, we have the exact seating model ready at fixed transparent rates."
+          highlight="Force Urbania On Rent In Jaipur"
+          description="Whether you need a luxury van for Jaipur local sightseeing, wedding guest mobility, or an outstation holiday to Jodhpur, Udaipur and Jaisalmer, we have the exact seating model ready at fixed transparent rates."
         />
 
         {vehicleGroups.map((group) => {

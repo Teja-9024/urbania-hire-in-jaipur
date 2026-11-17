@@ -15,7 +15,7 @@ export const globalFaqs: FAQItem[] = [
   {
     question: "Which cities in Rajasthan do you cover?",
     answer:
-      "We currently operate in Jaipur, Jodhpur, Udaipur, Jaisalmer, Bikaner, Ajmer, Pushkar, Kota, Mount Abu, Alwar, Bharatpur, Sikar and Churu, with outstation trips connecting all of these and beyond.",
+      "We are based in Jaipur and operate across Jaipur, Udaipur, Jodhpur, Jaisalmer, Bikaner, Ajmer, Pushkar, Kota, Mount Abu, Alwar, Bharatpur, Sikar and Churu, with outstation trips connecting all of these and beyond.",
   },
   {
     question: "How do I get a price quote?",
